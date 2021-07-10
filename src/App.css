@@ -1,3 +1,4 @@
+/* Default React CSS */
 .App {
   text-align: center;
 }
@@ -35,4 +36,348 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Added Styles */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* Navbar Styles */
+nav {
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+  z-index: 90;
+  padding: 1em 4.875em;
+  box-shadow: 0 1px 1px #ccc;
+  position: fixed;
+  font-size: 16px;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.nav-links {
+  align-items: center;
+  height: 100%;
+  margin: 0 20px 0 2.5em;
+  justify-content: space-between;
+  padding: 0.25em 0;
+  box-sizing: border-box;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  font-size: 16px;
+  width: 100%;
+}
+.logo {
+  width: auto;
+  height: 100%;
+  text-decoration: none;
+  cursor: pointer;
+}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap");
+.edyoda-logo {
+  font-size: 2.1em;
+  margin-top: 0;
+  width: 130px;
+  background-image: linear-gradient(269deg, #0048ff, #0096ff),
+    linear-gradient(#000, #000);
+  color: #0084ff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.08;
+  letter-spacing: -0.9px;
+  text-align: left;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-font-smoothing: antialiased;
+  text-transform: uppercase;
+}
+.stories-logo {
+  margin: 0;
+  object-fit: contain;
+  font-family: "Raleway", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: 0.9px;
+  color: #000;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.dropdown-toggle {
+  color: #000;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.9px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: transparent;
+  border: 0;
+}
+.dropdown-menu {
+  z-index: 150;
+  min-width: 250px;
+  max-height: 335px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 1em;
+  padding: 0.5em;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #666;
+  background-color: white;
+  box-shadow: 0 1px 8px rgb(0 0 0 / 50%);
+  font-weight: 400;
+  border-radius: 4px;
+  position: absolute;
+  height: auto;
+  inset: 20px auto auto 0 !important;
+}
+.dropdown-item {
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+  line-height: 1em;
+  padding: 0.5em;
+}
+.right-menus {
+  margin-top: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+.edyoda-text {
+  display: inline-flex;
+}
+.edyoda-text p {
+  min-width: 23em;
+  opacity: 0.6;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 0.5em;
+}
+.edyoda-signup {
+  display: inline-flex;
+}
+.edyoda-signup button {
+  width: auto;
+  font-size: 0.75em;
+  padding: 0.5em 2em;
+  margin: 0px 1em 0px 0px;
+  box-shadow: none;
+  min-width: 136px;
+  height: 42px;
+  border-radius: 25px;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.03em;
+  background: linear-gradient(269deg, #0048ff, #0096ff);
+}
+
+/* Main Section Stylings */
+main {
+  padding: 2% 16%;
+  background-color: #f2f6ff;
+  min-height: 100vh;
+  margin-top: 80px;
+  font-family: "Raleway", sans-serif;
+}
+.latest-posts-heading {
+  width: fit-content;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #000;
+}
+/* Filter Section */
+.category-filter-section {
+  margin-bottom: 20px;
+  font-size: 16px;
+  padding-top: 1em;
+}
+.category-filter-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.category-filter-icon {
+  display: inline-block;
+  color: #3680c1;
+}
+.category-filter-text {
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-left: 0.5em;
+}
+.category-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.category-item {
+  padding: 6px 14px;
+  width: auto;
+  font-size: 0.75em;
+  color: #0084ff;
+  border-radius: 15px;
+  border: 1px solid #0084ff;
+  margin: 5px;
+  cursor: pointer;
+}
+.category-item-selected {
+  color: #fff;
+  background: linear-gradient(269deg, #0048ff, #0096ff);
+}
+/* Cards Section */
+@media screen and (max-width: 900px) {
+  .blog-card-container {
+    width: 33.33%;
+    box-sizing: unset;
+    max-width: 20em;
+    max-height: 29em;
+    min-height: 25em;
+    height: auto;
+    margin-right: 1%;
+    margin-left: 1%;
+    background-color: #fff;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 168, 255, 0.3);
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+}
+.blog-card-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px;
+  align-items: initial;
+  justify-content: left;
+}
+.blog-card-container {
+  width: 100%;
+  box-sizing: unset;
+  max-width: 20em;
+  max-height: 29em;
+  min-height: 25em;
+  height: auto;
+  margin-right: 1%;
+  margin-left: 1%;
+  background-color: #fff;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  border: 1px solid rgba(0, 168, 255, 0.3);
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.blog-image-container {
+  height: 11em;
+  width: 100%;
+}
+.blog-image-container img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.blog-details-container {
+  padding: 0.7em 1.5em;
+}
+.blog-details-container h3 {
+  font-size: 1.2em;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.14;
+  color: #000;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.blog-details-container p {
+  line-height: 1.5;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #0096ff;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  margin: 0;
+  padding-top: 4px;
+}
+.blog-details-date {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 0.3em;
+}
+.blog-details-container div {
+  color: rgba(0, 0, 0, 0.6);
+  opacity: 0.5;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.43;
+  letter-spacing: 0.35px;
+  text-align: left;
+  margin: 0.3em 0;
+  white-space: pre-wrap;
+  padding-top: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
 }
